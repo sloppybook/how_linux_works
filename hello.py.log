@@ -1,0 +1,847 @@
+execve("/usr/bin/python3", ["python3", "hello.py"], 0x7e8ae37c /* 46 vars */) = 0
+brk(NULL)                               = 0xacc000
+uname({sysname="Linux", nodename="raspberrypi", ...}) = 0
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f9c000
+access("/etc/ld.so.preload", R_OK)      = 0
+openat(AT_FDCWD, "/etc/ld.so.preload", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+mmap2(NULL, 54, PROT_READ|PROT_WRITE, MAP_PRIVATE, 3, 0) = 0x76f9b000
+close(3)                                = 0
+readlink("/proc/self/exe", "/usr/bin/python3.7", 4096) = 18
+openat(AT_FDCWD, "/usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\254\3\0\0004\0\0\0"..., 512) = 512
+_llseek(3, 16748, [16748], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 960) = 960
+_llseek(3, 16424, [16424], SEEK_SET)    = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\2\n\3\f\1\22\4\24"..., 45) = 45
+_llseek(3, 16748, [16748], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 960) = 960
+_llseek(3, 16424, [16424], SEEK_SET)    = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\2\n\3\f\1\22\4\24"..., 45) = 45
+_llseek(3, 16748, [16748], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 960) = 960
+_llseek(3, 16424, [16424], SEEK_SET)    = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\2\n\3\f\1\22\4\24"..., 45) = 45
+_llseek(3, 16748, [16748], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 960) = 960
+_llseek(3, 16424, [16424], SEEK_SET)    = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\2\n\3\f\1\22\4\24"..., 45) = 45
+_llseek(3, 16748, [16748], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 960) = 960
+_llseek(3, 16424, [16424], SEEK_SET)    = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\2\n\3\f\1\22\4\24"..., 45) = 45
+_llseek(3, 16748, [16748], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 960) = 960
+_llseek(3, 16424, [16424], SEEK_SET)    = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\2\n\3\f\1\22\4\24"..., 45) = 45
+fstat64(3, {st_mode=S_IFREG|0644, st_size=17708, ...}) = 0
+mmap2(NULL, 81964, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76f59000
+mprotect(0x76f5d000, 61440, PROT_NONE)  = 0
+mmap2(0x76f6c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x76f6c000
+close(3)                                = 0
+munmap(0x76f9b000, 54)                  = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=80850, ...}) = 0
+mmap2(NULL, 80850, PROT_READ, MAP_PRIVATE, 3, 0) = 0x76f45000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libcrypt.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0p\t\0\0004\0\0\0"..., 512) = 512
+_llseek(3, 33268, [33268], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 32920, [32920], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 33268, [33268], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 32920, [32920], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 33268, [33268], SEEK_SET)    = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 32920, [32920], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+fstat64(3, {st_mode=S_IFREG|0644, st_size=34348, ...}) = 0
+mmap2(NULL, 258416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76f05000
+mprotect(0x76f0c000, 65536, PROT_NONE)  = 0
+mmap2(0x76f1c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x76f1c000
+mmap2(0x76f1e000, 156016, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x76f1e000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libpthread.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\224O\0\0004\0\0\0"..., 512) = 512
+_llseek(3, 129016, [129016], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1400) = 1400
+_llseek(3, 94664, [94664], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 129016, [129016], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1400) = 1400
+_llseek(3, 94664, [94664], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 129016, [129016], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1400) = 1400
+_llseek(3, 94664, [94664], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 129016, [129016], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1400) = 1400
+_llseek(3, 94664, [94664], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 129016, [129016], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1400) = 1400
+_llseek(3, 94664, [94664], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 129016, [129016], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1400) = 1400
+_llseek(3, 94664, [94664], SEEK_SET)    = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+fstat64(3, {st_mode=S_IFREG|0755, st_size=130416, ...}) = 0
+mmap2(NULL, 168560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76edb000
+mprotect(0x76ef2000, 61440, PROT_NONE)  = 0
+mmap2(0x76f01000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x76f01000
+mmap2(0x76f03000, 4720, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x76f03000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libdl.so.2", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0 \n\0\0004\0\0\0"..., 512) = 512
+_llseek(3, 8688, [8688], SEEK_SET)      = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 8340, [8340], SEEK_SET)      = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 8688, [8688], SEEK_SET)      = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 8340, [8340], SEEK_SET)      = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 8688, [8688], SEEK_SET)      = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 8340, [8340], SEEK_SET)      = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+fstat64(3, {st_mode=S_IFREG|0644, st_size=9768, ...}) = 0
+mmap2(NULL, 73924, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76ec8000
+mprotect(0x76eca000, 61440, PROT_NONE)  = 0
+mmap2(0x76ed9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x76ed9000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libutil.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\200\n\0\0004\0\0\0"..., 512) = 512
+_llseek(3, 8716, [8716], SEEK_SET)      = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 8368, [8368], SEEK_SET)      = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 8716, [8716], SEEK_SET)      = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 8368, [8368], SEEK_SET)      = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 8716, [8716], SEEK_SET)      = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 8368, [8368], SEEK_SET)      = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+fstat64(3, {st_mode=S_IFREG|0644, st_size=9796, ...}) = 0
+mmap2(NULL, 73908, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76eb5000
+mprotect(0x76eb7000, 61440, PROT_NONE)  = 0
+mmap2(0x76ec6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x76ec6000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libexpat.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\200 \0\0004\0\0\0"..., 512) = 512
+_llseek(3, 197116, [197116], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 196760, [196760], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 197116, [197116], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 196760, [196760], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 197116, [197116], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 196760, [196760], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 197116, [197116], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 196760, [196760], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 197116, [197116], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 196760, [196760], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 197116, [197116], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 196760, [196760], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+fstat64(3, {st_mode=S_IFREG|0644, st_size=198196, ...}) = 0
+mmap2(NULL, 262300, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76e74000
+mprotect(0x76ea2000, 65536, PROT_NONE)  = 0
+mmap2(0x76eb2000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2e000) = 0x76eb2000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libz.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0<\32\0\0004\0\0\0"..., 512) = 512
+_llseek(3, 107088, [107088], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 106728, [106728], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 107088, [107088], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 106728, [106728], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 107088, [107088], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 106728, [106728], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 107088, [107088], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 106728, [106728], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 107088, [107088], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 106728, [106728], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 107088, [107088], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 106728, [106728], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+fstat64(3, {st_mode=S_IFREG|0644, st_size=108168, ...}) = 0
+mmap2(NULL, 172268, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76e49000
+mprotect(0x76e63000, 61440, PROT_NONE)  = 0
+mmap2(0x76e72000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x76e72000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libm.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\240r\0\0004\0\0\0"..., 512) = 512
+_llseek(3, 463312, [463312], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 462960, [462960], SEEK_SET)  = 0
+read(3, "A0\0\0\0aeabi\0\1&\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 49) = 49
+_llseek(3, 463312, [463312], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 462960, [462960], SEEK_SET)  = 0
+read(3, "A0\0\0\0aeabi\0\1&\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 49) = 49
+_llseek(3, 463312, [463312], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080) = 1080
+_llseek(3, 462960, [462960], SEEK_SET)  = 0
+read(3, "A0\0\0\0aeabi\0\1&\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 49) = 49
+fstat64(3, {st_mode=S_IFREG|0644, st_size=464392, ...}) = 0
+mmap2(NULL, 528504, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76dc7000
+mprotect(0x76e38000, 61440, PROT_NONE)  = 0
+mmap2(0x76e47000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x70000) = 0x76e47000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libc.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\300x\1\0004\0\0\0"..., 512) = 512
+_llseek(3, 1293204, [1293204], SEEK_SET) = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 2800) = 2800
+_llseek(3, 1289788, [1289788], SEEK_SET) = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 1293204, [1293204], SEEK_SET) = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 2800) = 2800
+_llseek(3, 1289788, [1289788], SEEK_SET) = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 1293204, [1293204], SEEK_SET) = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 2800) = 2800
+_llseek(3, 1289788, [1289788], SEEK_SET) = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 1293204, [1293204], SEEK_SET) = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 2800) = 2800
+_llseek(3, 1289788, [1289788], SEEK_SET) = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 1293204, [1293204], SEEK_SET) = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 2800) = 2800
+_llseek(3, 1289788, [1289788], SEEK_SET) = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+_llseek(3, 1293204, [1293204], SEEK_SET) = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 2800) = 2800
+_llseek(3, 1289788, [1289788], SEEK_SET) = 0
+read(3, "A.\0\0\0aeabi\0\1$\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\23\1\24"..., 47) = 47
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1296004, ...}) = 0
+mmap2(NULL, 1364764, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76c79000
+mprotect(0x76db1000, 65536, PROT_NONE)  = 0
+mmap2(0x76dc1000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x138000) = 0x76dc1000
+mmap2(0x76dc4000, 8988, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x76dc4000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/arm-linux-gnueabihf/libgcc_s.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\270\321\0\0004\0\0\0"..., 512) = 512
+_llseek(3, 115284, [115284], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1040) = 1040
+_llseek(3, 114940, [114940], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 115284, [115284], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1040) = 1040
+_llseek(3, 114940, [114940], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 115284, [115284], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1040) = 1040
+_llseek(3, 114940, [114940], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 115284, [115284], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1040) = 1040
+_llseek(3, 114940, [114940], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 115284, [115284], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1040) = 1040
+_llseek(3, 114940, [114940], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+_llseek(3, 115284, [115284], SEEK_SET)  = 0
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1040) = 1040
+_llseek(3, 114940, [114940], SEEK_SET)  = 0
+read(3, "A,\0\0\0aeabi\0\1\"\0\0\0\0056\0\6\6\10\1\t\1\n\2\22\4\24\1\25"..., 45) = 45
+fstat64(3, {st_mode=S_IFREG|0644, st_size=116324, ...}) = 0
+mmap2(NULL, 180532, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x76c4c000
+mprotect(0x76c68000, 61440, PROT_NONE)  = 0
+mmap2(0x76c77000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x76c77000
+close(3)                                = 0
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f9a000
+set_tls(0x76f9af90)                     = 0
+mprotect(0x76dc1000, 8192, PROT_READ)   = 0
+mprotect(0x76c77000, 4096, PROT_READ)   = 0
+mprotect(0x76e47000, 4096, PROT_READ)   = 0
+mprotect(0x76e72000, 4096, PROT_READ)   = 0
+mprotect(0x76eb2000, 8192, PROT_READ)   = 0
+mprotect(0x76ec6000, 4096, PROT_READ)   = 0
+mprotect(0x76ed9000, 4096, PROT_READ)   = 0
+mprotect(0x76f01000, 4096, PROT_READ)   = 0
+mprotect(0x76f1c000, 4096, PROT_READ)   = 0
+mprotect(0x76f6c000, 4096, PROT_READ)   = 0
+mprotect(0x3b5000, 4096, PROT_READ)     = 0
+mprotect(0x76f9e000, 4096, PROT_READ)   = 0
+munmap(0x76f45000, 80850)               = 0
+set_tid_address(0x76f9ab38)             = 11234
+set_robust_list(0x76f9ab40, 12)         = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x76edf8e8, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x76ca6130}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x76edf9a4, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x76ca6130}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+ugetrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+brk(NULL)                               = 0xacc000
+brk(0xaed000)                           = 0xaed000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1159568, ...}) = 0
+mmap2(NULL, 1159568, PROT_READ, MAP_PRIVATE, 3, 0) = 0x76b30000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/arm-linux-gnueabihf/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=26406, ...}) = 0
+mmap2(NULL, 26406, PROT_READ, MAP_SHARED, 3, 0) = 0x76f93000
+close(3)                                = 0
+futex(0x76dc3f18, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat64("/usr/local/sbin/python3", 0x7e8c9e68) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/local/bin/python3", 0x7e8c9e68) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/sbin/python3", 0x7e8c9e68) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/bin/python3", {st_mode=S_IFREG|0755, st_size=4275580, ...}) = 0
+readlink("/usr/bin/python3", "python3.7", 4096) = 9
+readlink("/usr/bin/python3.7", 0x7e8c3e30, 4096) = -1 EINVAL (無効な引数です)
+openat(AT_FDCWD, "/usr/bin/pyvenv.cfg", O_RDONLY|O_LARGEFILE) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/pyvenv.cfg", O_RDONLY|O_LARGEFILE) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/bin/Modules/Setup", 0x7e8c9e68) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/bin/lib/python3.7/os.py", 0x7e8c4dd8) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/bin/lib/python3.7/os.pyc", 0x7e8c4dd8) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/os.py", {st_mode=S_IFREG|0644, st_size=37756, ...}) = 0
+stat64("/usr/bin/pybuilddir.txt", 0x7e8c4e60) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/bin/lib/python3.7/lib-dynload", 0x7e8c4e60) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+getrandom("\x8f\x0b\xa1\xf6\x34\xbb\x97\x16\x89\xc7\xdc\xe4\xd3\x70\x8d\x5b\xed\x49\x74\x98\x57\x7f\xff\x43", 24, GRND_NONBLOCK) = 24
+mmap2(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76af0000
+fstat64(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+mmap2(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76ab0000
+mmap2(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76a70000
+brk(0xb0e000)                           = 0xb0e000
+sysinfo({uptime=2961, loads=[10976, 17248, 43872], totalram=971063296, freeram=92680192, sharedram=40452096, bufferram=59027456, totalswap=104853504, freeswap=64483328, procs=277, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+sigaltstack({ss_sp=0xadb088, ss_flags=0, ss_size=8192}, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+stat64("/usr/lib/python37.zip", 0x7e8d52f8) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python37.zip", 0x7e8d4e40) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+fstat64(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(3, /* 206 entries */, 32768) = 6872
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7/encodings/__init__.cpython-37m-arm-linux-gnueabihf.so", 0x7e8d50c0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/encodings/__init__.abi3.so", 0x7e8d50c0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/encodings/__init__.so", 0x7e8d50c0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5668, ...}) = 0
+stat64("/usr/lib/python3.7/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5668, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/encodings/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fcntl64(3, F_GETFD)                     = 0x1 (flags FD_CLOEXEC)
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3929, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3929, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\$\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 3930) = 3929
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/codecs.py", {st_mode=S_IFREG|0644, st_size=36287, ...}) = 0
+stat64("/usr/lib/python3.7/codecs.py", {st_mode=S_IFREG|0644, st_size=36287, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/codecs.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=33880, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=33880, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\277\215\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0,\0\0"..., 33881) = 33880
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/encodings", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+fstat64(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(3, /* 128 entries */, 32768) = 4336
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15577, ...}) = 0
+stat64("/usr/lib/python3.7/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15577, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/encodings/__pycache__/aliases.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=6278, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=6278, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\331<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0D\1\0"..., 6279) = 6278
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0
+stat64("/usr/lib/python3.7/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/encodings/__pycache__/utf_8.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1596, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1596, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1597) = 1596
+read(3, "", 1)                          = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x76ca6120}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x76ca6120}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+getpid()                                = 11234
+rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x76ca6120}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x76ca6120}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x1ee23c, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x76ca6120}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+stat64("/usr/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}) = 0
+stat64("/usr/lib/python3.7/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/encodings/__pycache__/latin_1.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1878, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1878, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\360\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 1879) = 1878
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/io.py", {st_mode=S_IFREG|0644, st_size=3517, ...}) = 0
+stat64("/usr/lib/python3.7/io.py", {st_mode=S_IFREG|0644, st_size=3517, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/io.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3391, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3391, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\275\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0"..., 3392) = 3391
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/abc.py", {st_mode=S_IFREG|0644, st_size=5580, ...}) = 0
+stat64("/usr/lib/python3.7/abc.py", {st_mode=S_IFREG|0644, st_size=5580, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/abc.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=6433, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=6433, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\314\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 6434) = 6433
+read(3, "", 1)                          = 0
+close(3)                                = 0
+dup(0)                                  = 3
+close(3)                                = 0
+fstat64(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+_llseek(0, 0, 0x7e8d5b78, SEEK_CUR)     = -1 ESPIPE (不正なシークです)
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+dup(1)                                  = 3
+close(3)                                = 0
+fstat64(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+_llseek(1, 0, 0x7e8d5b58, SEEK_CUR)     = -1 ESPIPE (不正なシークです)
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+dup(2)                                  = 3
+close(3)                                = 0
+fstat64(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+_llseek(2, 0, 0x7e8d5b58, SEEK_CUR)     = -1 ESPIPE (不正なシークです)
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/site.py", {st_mode=S_IFREG|0644, st_size=22656, ...}) = 0
+stat64("/usr/lib/python3.7/site.py", {st_mode=S_IFREG|0644, st_size=22656, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/site.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=17139, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=17139, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\200X\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 17140) = 17139
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/os.py", {st_mode=S_IFREG|0644, st_size=37756, ...}) = 0
+stat64("/usr/lib/python3.7/os.py", {st_mode=S_IFREG|0644, st_size=37756, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/os.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=29675, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=29675, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\|\223\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\23\0\0"..., 29676) = 29675
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap2(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76a30000
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/stat.py", {st_mode=S_IFREG|0644, st_size=5038, ...}) = 0
+stat64("/usr/lib/python3.7/stat.py", {st_mode=S_IFREG|0644, st_size=5038, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/stat.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3855, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3855, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\256\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0"..., 3856) = 3855
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/posixpath.py", {st_mode=S_IFREG|0644, st_size=15772, ...}) = 0
+stat64("/usr/lib/python3.7/posixpath.py", {st_mode=S_IFREG|0644, st_size=15772, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/posixpath.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=10412, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=10412, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\234=\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0&\0\0"..., 10413) = 10412
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/genericpath.py", {st_mode=S_IFREG|0644, st_size=4756, ...}) = 0
+stat64("/usr/lib/python3.7/genericpath.py", {st_mode=S_IFREG|0644, st_size=4756, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/genericpath.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3730, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3730, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\224\22\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 3731) = 3730
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=26424, ...}) = 0
+stat64("/usr/lib/python3.7/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=26424, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/_collections_abc.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=28924, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=28924, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\8g\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\31\0\0"..., 28925) = 28924
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0xb3b000)                           = 0xb3b000
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}) = 0
+stat64("/usr/lib/python3.7/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/_sitebuiltins.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3447, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=3447, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\+\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 3448) = 3447
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/bin/pyvenv.cfg", 0x7e8d4fc0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/pyvenv.cfg", 0x7e8d4fc0)   = -1 ENOENT (そのようなファイルやディレクトリはありません)
+geteuid32()                             = 1000
+getuid32()                              = 1000
+getegid32()                             = 1000
+getgid32()                              = 1000
+stat64("/home/pi/.local/lib/python3.7/site-packages", 0x7e8d5128) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/local/lib/python3.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.7/dist-packages", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+fstat64(3, {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+getdents64(3, /* 2 entries */, 32768)   = 48
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat64("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+fstat64(3, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+getdents64(3, /* 222 entries */, 32768) = 8912
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/python3/dist-packages/logilab_common-1.4.2-nspkg.pth", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=544, ...}) = 0
+ioctl(3, TCGETS, 0x7e8d4e50)            = -1 ENOTTY (デバイスに対する不適切なioctlです)
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+ioctl(3, TCGETS, 0x7e8d4e20)            = -1 ENOTTY (デバイスに対する不適切なioctlです)
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/_bootlocale.py", {st_mode=S_IFREG|0644, st_size=1801, ...}) = 0
+stat64("/usr/lib/python3.7/_bootlocale.py", {st_mode=S_IFREG|0644, st_size=1801, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/_bootlocale.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=1231, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=1231, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\t\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 1232) = 1231
+read(4, "", 1)                          = 0
+close(4)                                = 0
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 544
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/types.py", {st_mode=S_IFREG|0644, st_size=9897, ...}) = 0
+stat64("/usr/lib/python3.7/types.py", {st_mode=S_IFREG|0644, st_size=9897, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/types.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=8958, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=8958, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\251&\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 8959) = 8958
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/importlib/__init__.cpython-37m-arm-linux-gnueabihf.so", 0x7e8d3c80) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/importlib/__init__.abi3.so", 0x7e8d3c80) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/importlib/__init__.so", 0x7e8d3c80) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/importlib/__init__.py", {st_mode=S_IFREG|0644, st_size=6037, ...}) = 0
+stat64("/usr/lib/python3.7/importlib/__init__.py", {st_mode=S_IFREG|0644, st_size=6037, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/importlib/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=3714, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=3714, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\225\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 3715) = 3714
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/warnings.py", {st_mode=S_IFREG|0644, st_size=20242, ...}) = 0
+stat64("/usr/lib/python3.7/warnings.py", {st_mode=S_IFREG|0644, st_size=20242, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/warnings.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=13922, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=13922, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\22O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 13923) = 13922
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/importlib", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 4
+fstat64(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(4, /* 10 entries */, 32768)  = 328
+getdents64(4, /* 0 entries */, 32768)   = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7/importlib/util.py", {st_mode=S_IFREG|0644, st_size=11319, ...}) = 0
+stat64("/usr/lib/python3.7/importlib/util.py", {st_mode=S_IFREG|0644, st_size=11319, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/importlib/__pycache__/util.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=9338, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=9338, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\7,\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 9339) = 9338
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap2(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x769f0000
+stat64("/usr/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/importlib/abc.py", {st_mode=S_IFREG|0644, st_size=12873, ...}) = 0
+stat64("/usr/lib/python3.7/importlib/abc.py", {st_mode=S_IFREG|0644, st_size=12873, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/importlib/__pycache__/abc.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=13469, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=13469, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\I2\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\n\0\0"..., 13470) = 13469
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/importlib/machinery.py", {st_mode=S_IFREG|0644, st_size=844, ...}) = 0
+stat64("/usr/lib/python3.7/importlib/machinery.py", {st_mode=S_IFREG|0644, st_size=844, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/importlib/__pycache__/machinery.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=954, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=954, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\L\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 955) = 954
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/contextlib.py", {st_mode=S_IFREG|0644, st_size=23774, ...}) = 0
+stat64("/usr/lib/python3.7/contextlib.py", {st_mode=S_IFREG|0644, st_size=23774, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/contextlib.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=19882, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=19882, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\336\\\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\f\0\0"..., 19883) = 19882
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/collections/__init__.cpython-37m-arm-linux-gnueabihf.so", 0x7e8d3040) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/collections/__init__.abi3.so", 0x7e8d3040) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/collections/__init__.so", 0x7e8d3040) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=47640, ...}) = 0
+stat64("/usr/lib/python3.7/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=47640, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/collections/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=46592, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=46592, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\30\272\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0"..., 46593) = 46592
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/operator.py", {st_mode=S_IFREG|0644, st_size=10863, ...}) = 0
+stat64("/usr/lib/python3.7/operator.py", {st_mode=S_IFREG|0644, st_size=10863, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/operator.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=13882, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=13882, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\o*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0006\0\0"..., 13883) = 13882
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/keyword.py", {st_mode=S_IFREG|0755, st_size=2243, ...}) = 0
+stat64("/usr/lib/python3.7/keyword.py", {st_mode=S_IFREG|0755, st_size=2243, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/keyword.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=1791, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=1791, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\303\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0"..., 1792) = 1791
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/heapq.py", {st_mode=S_IFREG|0644, st_size=23017, ...}) = 0
+stat64("/usr/lib/python3.7/heapq.py", {st_mode=S_IFREG|0644, st_size=23017, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/heapq.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=14344, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=14344, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\351Y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 14345) = 14344
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/reprlib.py", {st_mode=S_IFREG|0644, st_size=5267, ...}) = 0
+stat64("/usr/lib/python3.7/reprlib.py", {st_mode=S_IFREG|0644, st_size=5267, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/reprlib.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=5332, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=5332, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\223\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 5333) = 5332
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/functools.py", {st_mode=S_IFREG|0644, st_size=32441, ...}) = 0
+stat64("/usr/lib/python3.7/functools.py", {st_mode=S_IFREG|0644, st_size=32441, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/functools.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=23937, ...}) = 0
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=23937, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0G\244\\\271~\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 23938) = 23937
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap2(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x769b0000
+stat64("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat64("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat64("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 4
+fstat64(4, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+brk(0xb5d000)                           = 0xb5d000
+getdents64(4, /* 222 entries */, 32768) = 8912
+getdents64(4, /* 0 entries */, 32768)   = 0
+brk(0xb54000)                           = 0xb54000
+close(4)                                = 0
+stat64("/usr/lib/python3/dist-packages/logilab/__init__.cpython-37m-arm-linux-gnueabihf.so", 0x7e8d45e0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3/dist-packages/logilab/__init__.abi3.so", 0x7e8d45e0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3/dist-packages/logilab/__init__.so", 0x7e8d45e0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3/dist-packages/logilab/__init__.py", 0x7e8d45e0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3/dist-packages/logilab/__init__.pyc", 0x7e8d45e0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3/dist-packages/logilab", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7/dist-packages", 0x7e8d50d0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+stat64("/usr/lib/python3.7/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/__pycache__/sitecustomize.cpython-37.pyc", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=216, ...}) = 0
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=216, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0G\244\\\233\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 217) = 216
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python3.7/lib-dynload", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+fstat64(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(3, /* 45 entries */, 32768)  = 2936
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat64("/usr/local/lib/python3.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+stat64("/usr/local/lib/python3.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+stat64("/usr/local/lib/python3.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.7/dist-packages", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+fstat64(3, {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+getdents64(3, /* 2 entries */, 32768)   = 48
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat64("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat64("/usr/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/local/lib/python3.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+stat64("/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat64("hello.py", {st_mode=S_IFREG|0644, st_size=22, ...}) = 0
+openat(AT_FDCWD, "hello.py", O_RDONLY|O_LARGEFILE) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=22, ...}) = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=22, ...}) = 0
+_llseek(3, 0, [0], SEEK_SET)            = 0
+read(3, "print(\"hello world\")\n\n", 4096) = 22
+close(3)                                = 0
+stat64("hello.py", {st_mode=S_IFREG|0644, st_size=22, ...}) = 0
+readlink("hello.py", 0x7e8c4f18, 4096)  = -1 EINVAL (無効な引数です)
+getcwd("/home/pi/Projects", 4096)       = 18
+lstat64("/home/pi/Projects/hello.py", {st_mode=S_IFREG|0644, st_size=22, ...}) = 0
+openat(AT_FDCWD, "hello.py", O_RDONLY|O_LARGEFILE) = 3
+fcntl64(3, F_GETFD)                     = 0
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=22, ...}) = 0
+ioctl(3, TCGETS, 0x7e8d60a8)            = -1 ENOTTY (デバイスに対する不適切なioctlです)
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=22, ...}) = 0
+read(3, "print(\"hello world\")\n\n", 4096) = 22
+_llseek(3, 0, [0], SEEK_SET)            = 0
+read(3, "print(\"hello world\")\n\n", 4096) = 22
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+write(1, "hello world\n", 12)           = 12
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x76ca6120}, {sa_handler=0x1ee23c, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x76ca6120}, 8) = 0
+sigaltstack(NULL, {ss_sp=0xadb088, ss_flags=0, ss_size=8192}) = 0
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
