@@ -106,3 +106,31 @@ $ sar -P ALL 1 1
 平均値:        3     33.00      0.00     67.00      0.00      0.00      0.00
 $ kill 2692
 ```
+### おまけ
+straceにオプション-Tをつけるとシステムコールにかかった時間を表示
+
+## 標準Cライブラリを確認
+ldd: プログラムにどのようなライブラリがリンクしているか確認できる
+```
+$ which pwd
+/bin/pwd
+$ ldd /bin/pwd
+	linux-vdso.so.1 (0x7ee11000)
+	/usr/lib/arm-linux-gnueabihf/libarmmem-${PLATFORM}.so => /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so (0x76f1a000)
+	libc.so.6 => /lib/arm-linux-gnueabihf/libc.so.6 (0x76db8000)
+	/lib/ld-linux-armhf.so.3 (0x76f2f000)
+```
+libcというのが標準Cライブラリです。
+ls, echo, python3等確認してみよう！
+
+## OSが提供するプログラム
+- システム初期化：init
+- OSの挙動を変える：sysctl, nice, sync
+- ファイル操作：touch, mkdir
+- テキストデータの加工：grep, sort, uniq
+- 性能測定：sar, iostat
+- コンパイラ：gcc
+- スクリプト言語実行環境：perl, python, ruby
+- シェル：bash
+- ウィンドウシステム：X
+
